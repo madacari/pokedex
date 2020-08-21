@@ -95,7 +95,7 @@ describe('Tests for convertFeetToCentimeters', () => {
         expect(convertFeetToCentimeters(pokemonWithHeight10)).toEqual(305);
     })
     it('Should return height converted to centimeters rounded down', () => {
-        expect(convertFeetToCentimeters(pokemonWithHeight1)).toEqual(30);
+        expect(convertFeetToCentimeters(pokemonWithHeight1)).toEqual(305);
     })
     it('Should return exact height converted to centimeters', () => {
         expect(convertFeetToCentimeters(pokemonWithHeight100)).toEqual(3048);
